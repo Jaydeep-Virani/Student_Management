@@ -1,11 +1,11 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Demo.aspx.cs" Inherits="Student_Management.Demo" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="Student_Management.MasterPage" %>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My App</title>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server"></asp:ContentPlaceHolder>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
     <style>
@@ -67,11 +67,11 @@
     </style>
 </head>
 <body>
-    <nav class="w-full bg-blue-500 text-white p-4">
+    <nav class="w-full bg-blue-600 text-white p-4">
         <div class="flex justify-between items-center max-w-full">
             <h1 class="text-lg font-bold">My App</h1>
             <div class="flex items-center space-x-4">
-                <img src="https://via.placeholder.com/40" alt="Profile Picture" class="rounded-full w-10 h-10" />
+                <img src="Image/profile.png" alt="Profile Picture" class="rounded-full w-10 h-10" />
                 <div class="relative">
                     <button id="dropdownButton" class="flex items-center space-x-2">
                         <span>Jaydeep Virani</span>
@@ -98,7 +98,7 @@
             <ul class="flex-1">
                 <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
                     <i class="fas fa-tachometer-alt text-blue-500"></i>
-                    <span>Dashboard</span>
+                    <a href="Dashboard.aspx"><span>Dashboard</span></a>
                 </li>
                 <li class="p-4 flex flex-col font-bold hover:font-bold hover:scale-105 transition relative">
                     <div class="flex items-center justify-between space-x-4 cursor-pointer" id="masterMenu">
@@ -132,8 +132,7 @@
         </div>
 
         <div id="mainContent" class="main-content flex-1 p-8 bg-gray-100">
-            <h1 class="text-3xl font-bold">Welcome to My App!</h1>
-            <p class="mt-4">This is the main content area.</p>
+           <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
         </div>
     </div>
 

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "E:\\laragon\\www\\ASP.NET\\Student_Management\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|e:\\laragon\\www\\asp.net\\student_management\\student_management\\demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|solutionrelative:student_management\\demo.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|e:\\laragon\\www\\asp.net\\student_management\\student_management\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|solutionrelative:student_management\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|e:\\laragon\\www\\asp.net\\student_management\\student_management\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|solutionrelative:student_management\\dashboard.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Demo.aspx",
-              "DocumentMoniker": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\Demo.aspx",
-              "RelativeDocumentMoniker": "Student_Management\\Demo.aspx",
-              "ToolTip": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\Demo.aspx",
-              "RelativeToolTip": "Student_Management\\Demo.aspx",
+              "DocumentIndex": 1,
+              "Title": "Dashboard.aspx",
+              "DocumentMoniker": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\Dashboard.aspx",
+              "RelativeDocumentMoniker": "Student_Management\\Dashboard.aspx",
+              "ToolTip": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\Dashboard.aspx",
+              "RelativeToolTip": "Student_Management\\Dashboard.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-01-20T05:43:24.03Z",
+              "WhenOpened": "2025-02-04T15:03:27.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\MasterPage.Master",
+              "RelativeDocumentMoniker": "Student_Management\\MasterPage.Master",
+              "ToolTip": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\MasterPage.Master",
+              "RelativeToolTip": "Student_Management\\MasterPage.Master",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-04T15:00:13.562Z",
               "EditorCaption": ""
             }
           ]
