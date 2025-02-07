@@ -67,14 +67,35 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Add_Faculty.aspx" />
+    <Content Include="Add_Holiday.aspx" />
     <Content Include="Add_Student.aspx" />
     <Content Include="Dashboard.aspx" />
     <Content Include="Demo.aspx" />
+    <Content Include="Image\Logo\IMG_1599.PNG" />
     <Content Include="Image\profile.png" />
+    <Content Include="Manage_Class.aspx" />
+    <Content Include="Manage_Holiday.aspx" />
     <Content Include="Manage_Student.aspx" />
+    <Content Include="Manage_Faculty.aspx" />
+    <Content Include="Manage_Subject.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Add_Faculty.aspx.cs">
+      <DependentUpon>Add_Faculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Faculty.aspx.designer.cs">
+      <DependentUpon>Add_Faculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Holiday.aspx.cs">
+      <DependentUpon>Add_Holiday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add_Holiday.aspx.designer.cs">
+      <DependentUpon>Add_Holiday.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Add_Student.aspx.cs">
       <DependentUpon>Add_Student.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -96,12 +117,40 @@
     <Compile Include="Demo.aspx.designer.cs">
       <DependentUpon>Demo.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Manage_Class.aspx.cs">
+      <DependentUpon>Manage_Class.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_Class.aspx.designer.cs">
+      <DependentUpon>Manage_Class.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Holiday.aspx.cs">
+      <DependentUpon>Manage_Holiday.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_Holiday.aspx.designer.cs">
+      <DependentUpon>Manage_Holiday.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Manage_Student.aspx.cs">
       <DependentUpon>Manage_Student.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Manage_Student.aspx.designer.cs">
       <DependentUpon>Manage_Student.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Faculty.aspx.cs">
+      <DependentUpon>Manage_Faculty.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_Faculty.aspx.designer.cs">
+      <DependentUpon>Manage_Faculty.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Subject.aspx.cs">
+      <DependentUpon>Manage_Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Manage_Subject.aspx.designer.cs">
+      <DependentUpon>Manage_Subject.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

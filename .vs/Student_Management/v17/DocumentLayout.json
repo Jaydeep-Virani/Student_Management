@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\laragon\\www\\ASP.NET\\Student_Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|e:\\laragon\\www\\asp.net\\student_management\\student_management\\add_faculty.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|solutionrelative:student_management\\add_faculty.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|e:\\laragon\\www\\asp.net\\student_management\\student_management\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{F6A9B634-7A18-4ECB-94C9-A3D69B2D441A}|Student_Management\\Student_Management.csproj|solutionrelative:student_management\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Add_Faculty.aspx",
+              "DocumentMoniker": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\Add_Faculty.aspx",
+              "RelativeDocumentMoniker": "Student_Management\\Add_Faculty.aspx",
+              "ToolTip": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\Add_Faculty.aspx",
+              "RelativeToolTip": "Student_Management\\Add_Faculty.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-02-07T02:45:07.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MasterPage.Master",
               "DocumentMoniker": "E:\\laragon\\www\\ASP.NET\\Student_Management\\Student_Management\\MasterPage.Master",
               "RelativeDocumentMoniker": "Student_Management\\MasterPage.Master",
@@ -34,8 +51,7 @@
               "RelativeToolTip": "Student_Management\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2025-02-04T15:00:13.562Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-02-07T02:39:55.187Z",
               "EditorCaption": ""
             }
           ]

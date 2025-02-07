@@ -71,7 +71,7 @@
 <body>
     <nav class="w-full bg-blue-600 text-white p-4">
         <div class="flex justify-between items-center max-w-full">
-            <h1 class="text-lg font-bold">My App</h1>
+            <h1 class="text-lg font-bold"> <img src="Image/Logo/IMG_1599.PNG" alt="Profile Picture" class="w-70 h-10 pl-3" /></h1>
             <div class="flex items-center space-x-4">
                 <img src="Image/profile.png" alt="Profile Picture" class="rounded-full w-10 h-10" />
                 <div class="relative">
@@ -99,10 +99,12 @@
             </div>
             <ul class="flex-1">
                 <!-- Dashboard -->
+                <a href="Dashboard.aspx">
                 <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
                     <i class="fas fa-tachometer-alt text-blue-500"></i>
-                    <a href="Dashboard.aspx"><span>Dashboard</span></a>
+                    <span>Dashboard</span>
                 </li>
+                </a>
                 <!-- Student -->
                 <li class="p-4 flex flex-col font-bold hover:font-bold hover:scale-105 transition relative">
                     <div class="flex items-center justify-between space-x-4 cursor-pointer" id="studentMenu">
@@ -118,9 +120,65 @@
                     </ul>
                 </li>
 
-                <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
-                    <i class="fas fa-cogs text-yellow-500"></i>
-                    <span>Settings</span>
+                <!-- Class -->
+                <a href="Manage_Class.aspx">
+                    <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
+                        <i class="fas fa-book text-yellow-500"></i>
+                        <span>Class</span>
+                    </li>
+                </a>
+
+                <!-- Faculty -->
+                <li class="p-4 flex flex-col font-bold hover:font-bold hover:scale-105 transition relative">
+                    <div class="flex items-center justify-between space-x-4 cursor-pointer" id="facultyMenu">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-chalkboard-teacher text-blue-500"></i> 
+                            <span>Faculty</span>
+                        </div>
+                        <i class="fas fa-chevron-down submenu-icon"></i>
+                    </div>
+                    <ul class="hidden ml-8 mt-2 space-y-2 bg-gray-50 text-gray-700 rounded shadow-md py-2" id="facultySubMenu">
+                        <li>
+                            <a href="Add_Faculty.aspx" class="block font-bold hover:font-bold hover:scale-105 px-4 py-2">
+                                Add Faculty
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Manage_Faculty.aspx" class="block font-bold hover:font-bold hover:scale-105 px-4 py-2">
+                                Manage Faculty
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                
+                <!-- Subject -->
+                <a href="Manage_Subject.aspx">
+                    <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
+                        <i class="fas fa-book-open text-blue-500"></i> 
+                        <span>Subject</span>
+                    </li>
+                </a>
+                <!-- Holiday -->
+                <li class="p-4 flex flex-col font-bold hover:font-bold hover:scale-105 transition relative">
+                    <div class="flex items-center justify-between space-x-4 cursor-pointer" id="holidayMenu">
+                        <div class="flex items-center space-x-4">
+                            <i class="fas fa-calendar-alt text-blue-500"></i> 
+                            <span>Holiday</span>
+                        </div>
+                        <i class="fas fa-chevron-down submenu-icon"></i>
+                    </div>
+                    <ul class="hidden ml-8 mt-2 space-y-2 bg-gray-50 text-gray-700 rounded shadow-md py-2" id="holidaySubMenu">
+                        <li>
+                            <a href="Add_Holiday.aspx" class="block font-bold hover:font-bold hover:scale-105 px-4 py-2">
+                                Add Holiday
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Manage_Holiday.aspx" class="block font-bold hover:font-bold hover:scale-105 px-4 py-2">
+                                Manage Holiday
+                            </a>
+                        </li>
+                    </ul>
                 </li>
                 <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
                     <i class="fas fa-user text-purple-500"></i>
@@ -128,7 +186,7 @@
                 </li>
             </ul>
             <ul class="mt-auto">
-                <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-105 transition">
+                <li class="p-4 flex items-center space-x-4 font-bold hover:font-bold hover:scale-104 transition">
                     <i class="fas fa-sign-out-alt text-red-500"></i>
                     <span>Logout</span>
                 </li>
@@ -164,6 +222,28 @@
         document.addEventListener("click", () => {
             if (!document.getElementById("studentSubMenu").classList.contains("hidden")) {
                 document.getElementById("studentSubMenu").classList.add("hidden");
+            }
+        });
+
+        document.getElementById("facultyMenu").addEventListener("click", (e) => {
+            e.stopPropagation();
+            document.getElementById("facultySubMenu").classList.toggle("hidden");
+        });
+
+        document.addEventListener("click", () => {
+            if (!document.getElementById("facultySubMenu").classList.contains("hidden")) {
+                document.getElementById("facultySubMenu").classList.add("hidden");
+            }
+        });
+
+        document.getElementById("holidayMenu").addEventListener("click", (e) => {
+            e.stopPropagation();
+            document.getElementById("holidaySubMenu").classList.toggle("hidden");
+        });
+
+        document.addEventListener("click", () => {
+            if (!document.getElementById("holidaySubMenu").classList.contains("hidden")) {
+                document.getElementById("holidaySubMenu").classList.add("hidden");
             }
         });
     </script>
